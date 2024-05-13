@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  color: rgb(233, 233, 233);
+  background-color: rgb(26, 9, 58);
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.break {
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 36px;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+.stats {
+  width: 100%;
+  color: black;
+  background-color: white;
+  border-radius: 6px;
+  padding: 6px 10px;
+}
